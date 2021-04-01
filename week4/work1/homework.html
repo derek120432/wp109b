@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<style>
+    * {box-sizing: boder-box;}
+    .img-container {
+        float:left;
+        width: 20%;
+        padding: 10px;
+        }
+    .clearfix::after{
+        content:"";
+        clear: both;
+        display: table;
+    }
+    .tooltip{
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+    }
+    .tooltip .tooltiptext{
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding:5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom:100%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+    .tooltip:hover .tooltiptext{
+        visibility: visible;
+        opacity: 1;
+    }
+    img{opacity:0.7;}
+    img:hover{opacity: 1.0;}   
+
+</style>
+<body style="text-align:center;">
+    <h1>資工一李韋德110910514</h1>
+ <div class="clearfix">
+    <div class="img-container">
+        <div class="tooltip">
+            <img src="wbp3.jpg" style="width: 70%;">
+            <span class="tooltiptext">二哈</span>
+        </div>
+    </div>
+    <div class="img-container">
+        <div class="tooltip">
+            <img src="wbp1.jpg" style="width: 100%;">
+            <span class="tooltiptext">淡水老街</span>
+        </div>
+    </div>    
+    <div class="img-container">
+        <div class="tooltip">
+            <img src="wbp2.jpg" style="width: 70%;">
+            <span class="tooltiptext">It me</span>
+        </div>
+    </div>
+    <div class="img-container">
+        <div class="tooltip">
+            <img src="wbp4.jpg" style="width: 70%;">
+            <span class="tooltiptext">十分瀑布</span>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
