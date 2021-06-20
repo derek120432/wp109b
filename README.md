@@ -5,8 +5,9 @@
 學期 | 109 學年度下學期
 學生 |  李韋德
 學號末兩碼 | 14
+我的網頁 | [我的網頁](https://derek120432.github.io/wp109b/final%20homework/draw.html)
 教師 | [陳鍾誠](https://www.nqu.edu.tw/educsie/index.php?act=blog&code=list&ids=4)
 學校科系 | [金門大學資訊工程系](https://www.nqu.edu.tw/educsie/index.php)
 課程內容 | https://gitlab.com/ccc109/w
 筆記 | [我的筆記](mynote.md)
-作業 | [我的作業](myhomework.md)
+作業 | [我的作業](final%20homework/draw.html)
